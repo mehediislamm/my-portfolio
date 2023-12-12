@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
 
-
+import logo from '../../assets/logo-removebg-preview.png'
 const Navbar = () => {
 
 
 
     const navLink = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
+        <li><NavLink to={'/about'}>About me</NavLink></li>
         <li><NavLink to={'/skill'}>Skill</NavLink></li>
         <li><NavLink to={'/project'}>Project</NavLink></li>
-        <li><NavLink to={'/about'}>About me</NavLink></li>
         <li><NavLink to={'/contact'}>Contact me</NavLink></li>
       
 
@@ -28,16 +28,14 @@ const Navbar = () => {
                        {navLink}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl"><img className="w-10" src={logo} alt="" /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                    {navLink}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
-            </div>
+           
         </div>
     );
 };
