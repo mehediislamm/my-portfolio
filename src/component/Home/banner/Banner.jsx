@@ -1,6 +1,6 @@
  import banner from '../../../assets/bannner.jpg'
  import mypic from '../../../assets/IMG_6055-removebg-preview.png'
-//  import { FaDownload } from "react-icons/fa6";
+ import { FaDownload } from "react-icons/fa6";
 
 const Banner = () => {
     return (
@@ -19,7 +19,7 @@ const Banner = () => {
                          
                         <div className='flex justify-center items-center '>
                         <button className='btn btn-primary'>
-                                Download Resume 
+                                Download Resume <FaDownload size={20}></FaDownload>
                          </button>
                         </div>
                 </div>
