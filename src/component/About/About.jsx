@@ -15,7 +15,7 @@ const About = () => {
                     <div className="text-center">
                         <h1 className="text-4xl font-bold text-white mb-5">Transforming visions into
                             exceptional portfolios</h1>
-                        <p className="mb-5 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, necessitatibus?</p>
+                        <p className="mb-5 text-white">As a front-end web developer, you'll be responsible for creating the visual elements of a website that users interact with. Your tasks include designing and implementing user interfaces, ensuring responsive design for various devices, and optimizing the site for performance. Proficiency in HTML, CSS, and JavaScript is essential. Additionally, knowledge of front-end frameworks/libraries (e.g., React, Angular, Vue) is beneficial.</p>
 
                     </div>
                     <div className="flex justify-center">
