@@ -6,8 +6,8 @@ const About = () => {
         <div className="bg-black" >
             <h2 className="text-xl text-white text-center font-bold">About me</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20  ">
-                <div className="mb-10 md:mb-0">
-                    <img src={aboutImg} alt="" />
+                <div className="mb-10 md:mb-0 flex justify-center">
+                    <img className="md:w-0 w-52 " src={aboutImg} alt="" />
                 </div>
 
 

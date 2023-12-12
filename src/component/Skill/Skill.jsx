@@ -17,18 +17,18 @@ const Skill = () => {
             <div className='max-w-[1450px] mx-auto'>
                  
                 <div className='grid grid-cols-1 md:grid-cols-3'>
-                    <div>
+                    <div className='text-center'>
                         <div>
                             <h1 className="text-3xl font-bold text-white mb-5"> comfortable</h1>
-                            <div >
+                            <div className='flex justify-center' >
                                 <img className='w-10' src={html} alt="" />
                             </div>
-                            <progress className="progress progress-success w-56" value="70" max="100"></progress>
+                            <progress className="progress progress-success w-56 justify-center " value="70" max="100"></progress>
 
                         </div>
                         <div>
 
-                            <div >
+                            <div className='flex justify-center'>
                                 <img className='w-10' src={firebase} alt="" />
                             </div>
                             <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -36,7 +36,7 @@ const Skill = () => {
                         </div>
                         <div>
 
-                            <div >
+                            <div className='flex justify-center'>
                                 <img className='w-10' src={tawild} alt="" />
                             </div>
                             <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -44,11 +44,11 @@ const Skill = () => {
                         </div>
                     </div>
                     {/* familer */}
-                    <div>
+                    <div className='text-center'>
                         <div>
-                            <div>
+                            <div >
                                 <h1 className="text-2xl font-bold text-white mb-5"> familer</h1>
-                                <div >
+                                <div className='flex justify-center'>
                                     <img className='w-10' src={nodejs} alt="" />
                                 </div>
                                 <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -56,7 +56,7 @@ const Skill = () => {
                             </div>
                             <div>
 
-                                <div >
+                                <div className='flex justify-center'>
                                     <img className='w-10' src={mongobd} alt="" />
                                 </div>
                                 <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -64,7 +64,7 @@ const Skill = () => {
                             </div>
                             <div>
 
-                                <div >
+                                <div className='flex justify-center'>
                                     <img className='w-10' src={react} alt="" />
                                 </div>
                                 <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -74,11 +74,11 @@ const Skill = () => {
                     </div>
 
                     {/* tools */}
-                    <div>
+                    <div className='text-center'>
                         <div>
                             <div>
                                 <h1 className="text-2xl font-bold text-white mb-5"> tools</h1>
-                                <div >
+                                <div className='flex justify-center'>
                                     <img className='w-10' src={github} alt="" />
                                 </div>
                                 <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -86,7 +86,7 @@ const Skill = () => {
                             </div>
                             <div>
 
-                                <div className='bg-red-500'>
+                                <div className='bg-red-500 flex justify-center'>
                                     <img className='w-10' src={vercel} alt="" />
                                 </div>
                                 <progress className="progress progress-success w-56" value="70" max="100"></progress>
@@ -94,7 +94,7 @@ const Skill = () => {
                             </div>
                             <div>
 
-                                <div >
+                                <div className='flex justify-center'>
                                     <img className='w-10' src={vscode} alt="" />
                                 </div>
                                 <progress className="progress progress-success w-56" value="70" max="100"></progress>

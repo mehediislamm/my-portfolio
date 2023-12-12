@@ -17,9 +17,9 @@ const Banner = () => {
                     </p>
 
                     <div className='flex justify-center items-center '>
-                        <button className='btn btn-primary'>
+                       <a href="https://drive.google.com/uc?export=download&id=1nLvF5EnNhzBqRUT-3_Vn4Z7f_XxUJDhx"> <button className='btn btn-primary'>
                             Download Resume <FaDownload size={20}></FaDownload>
-                        </button>
+                        </button></a>
                     </div>
                 </div>
             </div>
